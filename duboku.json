@@ -42,7 +42,7 @@
   "dtArea": "//div[contains(@class,'myui-content__detail')]/p/span[contains(text(), '地区')]/following-sibling::a/text()",
   "dtMark": "//div[contains(@class,'myui-content__detail')]/p/span[contains(text(), '更新')]/following-sibling::a/text()",
   "dtDirector": "//div[contains(@class,'myui-content__detail')]/p[@class='data']/span[contains(@class,'text-muted') and text()='导演：']/following-sibling::a",
-  "dtActor": "//div[contains(@class,'myui-content__detail')]/p[@class='data']/span[contains(@class,'text-muted') and contains(text(),'主演：')]/following-sibling::a/text()",
+  "dtActor": "normalize-space(//div[contains(@class,'myui-content__detail')]/p[@class='data']/span[contains(@class,'text-muted') and text()='主演：']/following-sibling::a/text())",
   "dtDesc": "//div[@id='desc']//div[@class='col-pd text-collapse content']/span[@class='data']/p/text()",
   "dtFromNode": "//ul[contains(@class,'nav-tabs')]/li/a",
   "dtFromName": "/text()",
