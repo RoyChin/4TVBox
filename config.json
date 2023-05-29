@@ -1,5 +1,5 @@
 {
-  "spider": "https://raw.githubusercontent.com/4TVBox/4TVBox/main/custom_spider.jar;md5;8cb598596c187e9b24ff1fe92523f43c",
+  "spider": "https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;8cb598596c187e9b24ff1fe92523f43c",
   "wallpaper": "http://饭太硬.ga/深色壁纸/api.php",
   "sites": [
     {
@@ -10,6 +10,22 @@
       "searchable": 1,
       "changeable": 1,
       "ext": "https://raw.githubusercontent.com/4TVBox/4TVBox/main/duboku.json"
+    }
+  ],
+  "lives": [
+    {
+      "name": "TXT",
+      "type": 0,
+      "url": "http://home.jundie.top:81/Cat/tv/live.txt",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "Json",
+      "type": 1,
+      "url": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/live.json",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={epg}&date={date}",
+      "logo": "http://epg.51zmt.top:8000/{logo}"
     }
   ],
   "doh": [
