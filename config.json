@@ -3,13 +3,22 @@
   "wallpaper": "http://饭太硬.ga/深色壁纸/api.php",
   "sites": [
     {
-      "key": "獨播",
-      "name": "獨播",
+      "key": "独播",
+      "name": "独播",
       "type": 3,
       "api": "csp_XPathMacFilter",
       "searchable": 1,
       "changeable": 1,
       "ext": "https://raw.githubusercontent.com/4TVBox/4TVBox/main/duboku.json"
+    },
+    {
+      "key": "欧乐",
+      "name": "欧乐",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "https://raw.githubusercontent.com/4TVBox/4TVBox/main/olevod.json"
     },
     {
       "key": "泥巴",
@@ -60,6 +69,17 @@
         "纪录片",
         "经典片"
       ]
+    }
+  ],
+  "lives": [
+    {
+      "name": "ipv6",
+      "type": 0,
+      "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
     }
   ],
   "doh": [
