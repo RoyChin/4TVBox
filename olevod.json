@@ -58,7 +58,7 @@
   "dtActorR": "",
   "dtDirector": "//div[contains(@class,'content_detail')]//span[contains(text(), '导演')]/following-sibling::*/text()",
   "dtDirectorR": "",
-  "dtDesc": "//div[contains(@class, 'content_desc context clearfix')]/span/text()",
+  "dtDesc": "//div[contains(@class,'content_detail')]//span[contains(@class,'left text_muted') and contains(text(), '简介')]/parent::text()",
   "dtDescR": "",
   
   "dtFromNode": "//div[contains(@class,'play_source_tab')]/a",
@@ -287,11 +287,7 @@
             {"n": "香港","v": "/area/香港"},
             {"n": "台湾","v": "/area/台湾"},        
             {"n": "美国","v": "/area/美国"},
-            {"n": "英国","v": "/area/英国"},
-            {"n": "日本","v": "/area/日本"},
-            {"n": "韩国","v": "/area/韩国"},
-            {"n": "泰国","v": "/area/泰国"},     
-            {"n": "其他","v": "/area/其他"}
+            {"n": "韩国","v": "/area/韩国"}
           ]
         },
         {
