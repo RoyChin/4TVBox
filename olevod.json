@@ -58,7 +58,7 @@
   "dtActorR": "",
   "dtDirector": "//div[contains(@class,'content_detail')]//span[contains(text(), '导演')]/following-sibling::*/text()",
   "dtDirectorR": "",
-  "dtDesc": "//div[contains(@class,'content_detail')]//span[contains(@class,'left text_muted') and contains(text(), '简介')]/parent::text()",
+  "dtDesc": "///div[contains(@class,'content_detail')]//span[contains(@class,'left text_muted') and contains(text(), '简介')]/parent::text()",
   "dtDescR": "",
   
   "dtFromNode": "//div[contains(@class,'play_source_tab')]/a",
