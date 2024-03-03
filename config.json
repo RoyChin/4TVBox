@@ -29,15 +29,21 @@
       "changeable": 1
     },
     {
-            "key": "T4-安博",
-            "name": "安博(T4)",
-            "type": 4,
-            "api": "https://raw.githubusercontent.com/4TVBox/4TVBox/main/anbo.json",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 0,
-            "ext": true
+      "key":"csp_trj",
+      "name": "唐人街",
+      "type": 3,
+      "api": "csp_Tangrenjie",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "星星",
+      "name": "星星",
+      "type": 3,
+      "api": "csp_Star",
+      "searchable": 1,
+      "changeable": 1
     },
     {
       "key": "haiwaikan",
