@@ -1,5 +1,5 @@
 {
-  "spider": "https://github.com/4TVBox/4TVBox/raw/main/custom_spider.jar;md5;303eadd615ea122247a00e08689f0787",
+  "spider": "https://github.com/4TVBox/4TVBox/raw/main/custom_spider.jar;md5;6a77140c25470026f08522e50103cf8d",
   "wallpaper": "http://饭太硬.ga/深色壁纸/api.php",
   "sites": [
     {
@@ -27,6 +27,17 @@
       "api": "csp_NiNi",
       "searchable": 1,
       "changeable": 1
+    },
+    {
+            "key": "T4-安博",
+            "name": "安博(T4)",
+            "type": 4,
+            "api": "https://raw.githubusercontent.com/4TVBox/4TVBox/main/anbo.json",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": true
     },
     {
       "key": "haiwaikan",
